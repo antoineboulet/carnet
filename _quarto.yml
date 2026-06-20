@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: _site
+  
+lang: fr
+default-image-extension: ""
+
+metadata-files:
+  - system/metadata/carnet-format.yml
+  - system/metadata/carnet-navbar.yml

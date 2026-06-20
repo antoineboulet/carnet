@@ -1,0 +1,27 @@
+---
+title: "Carnet pédagogique"
+subtitle: Compléments de cours, ressources et explorations autour de la physique et de disciplines connexes.
+listing:
+  id: list-of-posts
+
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: table
+  categories: true
+  #sort-ui: true
+  #filter-ui: true
+page-layout: full
+title-block-banner: true
+
+css: system/styles/listing.css
+---
+
+Ce carnet rassemble des compléments de cours, des notes explicatives, des exemples, des ressources pédagogiques ainsi que diverses réflexions autour de la physique et des mathématiques. Il a pour vocation d'accompagner les étudiants au-delà des enseignements formels, en proposant des éclairages, des approfondissements et des contenus qui ne trouvent pas toujours leur place dans les cours.
+
+
+> ***Ce carnet est en cours de développement. De nouvelles notes, ressources et explorations seront ajoutées progressivement.***
+
+::: {#list-of-posts style="display:none;"}
+:::
+
