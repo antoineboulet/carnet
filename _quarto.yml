@@ -2,9 +2,17 @@ project:
   type: website
   output-dir: _site
   
-lang: fr
-default-image-extension: ""
+website: 
+  navbar: 
+    right: 
+      - text: "**carnet**"
+        href: /
 
 metadata-files:
-  - system/metadata/carnet-format.yml
-  - system/metadata/carnet-navbar.yml
+  - system/fragments/default-theme.yml
+  - system/fragments/default-website.yml
+  - system/fragments/main-navbar-fr.yml
+  - system/fragments/lang-fr.yml
+  - system/fragments/main-header.yml
+  - system/fragments/notebook-header.yml
+  - system/fragments/notebook-theme.yml
