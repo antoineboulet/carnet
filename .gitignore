@@ -5,3 +5,5 @@ _quarto.yml.local
 **/*.quarto_ipynb
 
 /.luarc.json
+
+*.bat
