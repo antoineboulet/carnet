@@ -9,11 +9,6 @@ website:
         href: /
 
 metadata-files:
-  - system/fragments/default-header.yml
-  - system/fragments/default-theme.yml
-  - system/fragments/default-website.yml
-  - system/fragments/notebook-header.yml
-  - system/fragments/notebook-theme.yml
-  - system/fragments/notebook-website.yml
-  - system/fragments/main-navbar-fr.yml
+  - system/fragments/default.yml
+  - system/fragments/notebook.yml
   - system/fragments/lang-fr.yml
