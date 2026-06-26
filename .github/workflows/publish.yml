@@ -21,6 +21,14 @@ jobs:
 
       - run: quarto render
 
+      - name: Générer 404.html
+        run: |
+          cat > _site/404.html << 'EOF'
+          <script>
+            window.location.replace("/fr/system/404.html");
+          </script>
+          EOF
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
